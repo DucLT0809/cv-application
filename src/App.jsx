@@ -2,13 +2,13 @@
 import { useState } from "react";
 import "./App.css";
 import Header from "./components/Header";
-import Main from "./components/Main";
+import Content from "./components/Content";
 import Footer from "./components/Footer";
 function App() {
   return (
     <div className="container">
       <Header />
-      <Main />
+      <Content />
       <Footer />
     </div>
   );

@@ -3,7 +3,7 @@ import React from "react";
 import "../styles/main.css";
 import { useState } from "react";
 import Canvas from "./Canva";
-const Main = () => {
+const Content = () => {
   const [fullName, setFullName] = useState();
   const [email, setEmail] = useState();
   const [phone, setPhone] = useState();
@@ -153,4 +153,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Content;
