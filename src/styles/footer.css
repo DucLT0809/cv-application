@@ -1,0 +1,10 @@
+.footer {
+  font-family: "Playwrite US Modern", cursive;
+  font-optical-sizing: auto;
+  font-size: 35%;
+  font-weight: bolder;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  color: white;
+}

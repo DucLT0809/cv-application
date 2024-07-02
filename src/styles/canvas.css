@@ -1,0 +1,39 @@
+.canvas__right {
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  margin-left: 5%;
+}
+.canvas__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3%;
+}
+.canvas__left__avatar img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50rem;
+  object-fit: cover;
+}
+.canvas__left__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.canvas__left__info h4,
+.canvas__left__info h2 {
+  margin: 0;
+}
+
+.canvas__container {
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  min-width: 80%;
+}
+hr.solid {
+  border-top: 1px solid #bbb;
+  width: 100%;
+}

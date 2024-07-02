@@ -1,0 +1,84 @@
+.main {
+  display: flex;
+  flex-grow: 1;
+  background-color: #efefef;
+  justify-content: center;
+  align-items: stretch;
+}
+.sidebar {
+  flex: 1;
+  background-color: white;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.158);
+  border-radius: 1rem;
+  margin: 1%;
+  margin-right: 0%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  overflow-x: hidden;
+  max-height: 78vh;
+}
+.canvas {
+  flex: 2;
+  background-color: white;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.158);
+  border-radius: 1rem;
+  margin: 1%;
+  height: auto;
+}
+.sidebar__general,
+.sidebar__education,
+.sidebar__practical {
+  display: flex;
+  margin: 5%;
+  flex-direction: column;
+}
+h2 {
+  text-align: center;
+}
+input,
+label {
+  margin: 0 10% 0 10%;
+  height: 2em;
+}
+input {
+  border-radius: 0.5em;
+  border: solid 0.5px #a8a5a5;
+}
+.sidebar__general input:hover {
+  border: solid 0.5px #264653;
+}
+.sidebar__practical__dateGroup {
+  display: flex;
+  flex-direction: row;
+  margin: 0 8% 0 5%;
+}
+
+#from,
+#to {
+  width: 9.2rem;
+}
+.sidebar__practical button {
+  background-color: #264653;
+  color: #efefef;
+  font-family: "Playwrite US Modern", cursive;
+  font-optical-sizing: auto;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  font-style: normal;
+  color: white;
+  margin: 3rem 3rem 0 3rem;
+}
+hr .solid {
+  border-top: 3px solid #c70e0e;
+}
+
+.canvas {
+  background-image: url(../assets/francesco-ungaro-R22IAAjHBac-unsplash.jpg);
+  background-size: cover;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
